@@ -1204,6 +1204,9 @@
       color: var(--muted-2);
     }
 
+    @media (max-width: 980px) { .s1-ep-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 720px) { .s1-ep-grid { grid-template-columns: repeat(2, 1fr); } }
+
     .s1-ep-lock-overlay {
       position: absolute;
       inset: 0;
@@ -2922,6 +2925,7 @@
             <div class="eyebrow-row" aria-label="劇集標籤">
               <span class="badge gold">乾淨世界獨家</span>
               <span class="badge">6月19日首播</span>
+              <span class="badge gold">第一季全網 1200 萬+ 觀看</span>
             </div>
 
             <h1 id="hero-title" class="sr-only">《維尼的終局》第二季</h1>
@@ -3422,6 +3426,43 @@
               <p style="font-size:13px;color:var(--muted);margin:4px 0 0;">只看《維尼的終局》第二季 · 一次購買 · 每週五自動解鎖新集</p>
             </div>
             <a class="btn outline-gold" style="flex-shrink:0;" href="https://www.ganjingworld.com/live/1ij93hv3nvn3A8aI6nqrzLwMt1bp1c?promo=landing_buyplaylist&playlist_id=1iildovf2f66RwXxrEcZwfH19p0p" target="_blank" rel="noopener">購買 珍藏版</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="season-one">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-overline">沒看過第一季？</p>
+              <h2 class="section-title">先補看《維尼的終局》第一季</h2>
+            </div>
+            <p class="section-desc"><strong style="color:var(--gold-2);">第一季全網累計突破 1200 萬觀看</strong>。看懂第一季的權力佈局，第二季的崩局更有層次；第一至五集免費補看，第六集終章乾淨會員專享。</p>
+          </div>
+
+          <div class="s1-player-wrap">
+            <iframe id="s1-main-iframe" src="https://www.ganjingworld.com/zh-TW/embed/1i4jbkbbt0o5UIBskfePgTONi1lp1c" title="《維尼的終局》第一季" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+          </div>
+
+          <div class="s1-ep-grid" id="s1-ep-grid">
+            <button class="s1-ep-btn active" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i4jbkbbt0o5UIBskfePgTONi1lp1c">
+              <div class="s1-ep-info"><strong>第一集</strong><span class="s1-ep-tag">免費</span></div>
+            </button>
+            <button class="s1-ep-btn" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i6ahteldugAKmBmOdCQ97eiE1e91c">
+              <div class="s1-ep-info"><strong>第二集 · 三方起念</strong><span class="s1-ep-tag">免費</span></div>
+            </button>
+            <button class="s1-ep-btn" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i6rhsmggi64HEwr3PjyJaQrP1601c">
+              <div class="s1-ep-info"><strong>第三集 · 後門天命</strong><span class="s1-ep-tag">免費</span></div>
+            </button>
+            <button class="s1-ep-btn" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i7dgldbn9l4NXbMaZE1EdJku1pb1c">
+              <div class="s1-ep-info"><strong>第四集 · 易人換心</strong><span class="s1-ep-tag">免費</span></div>
+            </button>
+            <button class="s1-ep-btn" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i7vatfd5m12INYZgOKyotGvl17l1c">
+              <div class="s1-ep-info"><strong>第五集 · 眾口伐尊</strong><span class="s1-ep-tag">免費</span></div>
+            </button>
+            <button class="s1-ep-btn" type="button" data-src="https://www.ganjingworld.com/zh-TW/embed/1i8h46o8lqt3wDLYVDvneguRj1cn1c">
+              <div class="s1-ep-info"><strong>第六集 · 終章〈慶豐之治〉</strong><span class="s1-ep-tag locked">會員專享</span></div>
+            </button>
           </div>
         </div>
       </section>
